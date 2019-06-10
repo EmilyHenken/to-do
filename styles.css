@@ -1,0 +1,50 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("blackboard.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 50px;
+}
+
+input {
+  font-size: 30px;
+  width: 325px;
+}
+
+.assignment, .subject {
+  background-color: lightgray;
+  border-color: lightgray;
+  border-style: solid;
+}
+
+.input-info{
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.submit {
+  background-color: gray;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+}
+
+ .doneBtn {
+   background-color: gray;
+   width: 50px;
+   height: 20px;
+   font-size: 15px;
+   border: gray;
+ }
+
+p {
+  font-family: 'Lora', serif;
+  font-size: 25px;
+}

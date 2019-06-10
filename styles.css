@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("blackboard.jpg");
+  background-image: url("./assets/blackboard.jpg");
   background-size: cover;
 }
 
@@ -16,6 +16,7 @@ h1 {
 input {
   font-size: 30px;
   width: 325px;
+  display: flex;
 }
 
 .assignment, .subject {
